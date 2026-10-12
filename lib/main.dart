@@ -45,9 +45,7 @@ class CardName extends StatelessWidget {
                 SizedBox(
                   height: 20.0,
                   width: 200.0,
-                  child: Divider(
-                    color: const Color.fromARGB(255, 0, 0, 0),
-                  ),
+                  child: Divider(color: const Color.fromARGB(255, 0, 0, 0)),
                 ),
                 // Card telepon
                 Card(
@@ -89,7 +87,7 @@ class CardName extends StatelessWidget {
                     ),
                   ),
                 ),
-                // Card media sosial 1 (challenge)
+
                 Card(
                   margin: const EdgeInsets.symmetric(
                     vertical: 10.0,
@@ -109,7 +107,7 @@ class CardName extends StatelessWidget {
                     ),
                   ),
                 ),
-                // Card media sosial 2 (challenge)
+
                 Card(
                   margin: const EdgeInsets.symmetric(
                     vertical: 10.0,
